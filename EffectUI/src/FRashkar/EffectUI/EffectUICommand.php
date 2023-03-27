@@ -15,6 +15,7 @@ namespace FRashkar\EffectUI;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\PluginOwned;
 use pocketmine\Server;
 use FRashkar\EffectUI\Main;
 use pocketmine\utils\TextFormat;
@@ -30,6 +31,13 @@ use pocketmine\entity\effect\EffectManager;
 use pocketmine\entity\effect\VanillaEffects;
 
 class EffectUICommand extends Command  { 
+    
+    private Main $main;
+    
+    public function __construct(Main $main) {
+        $this->main = $main;
+        parent::__construct("effectui", "Open EffectUI", "/effectui", ["eui"]);
+    }
     
     public function openEffectsUI(Player $p) {
         $form = new SimpleForm(function(Player $p, int $r = null) {
@@ -125,5 +133,9 @@ class EffectUICommand extends Command  {
             $this->openEffectsUI($sender);
         }
         return;
+    }
+    
+    public function getOwningPlugin() : Main {
+        return $this->main;
     }
 }
