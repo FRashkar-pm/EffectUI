@@ -23,17 +23,12 @@ use pocketmine\event\player\PlayerJoinEvent;
 class Main extends PluginBase implements Listener {
 
     public function onEnable(): void{
-        $this->getLogger()->info("[EffecUI] Plugin Enabled!");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getServer()->getCommandMap()->register("effecui", new EffectUICommand("effectui", "EffectUI Commands"));
+        $this->getServer()->getCommandMap()->register("effecui", new EffectUICommand("effectui", "Open EffectUI"));
     }
     
     public function onJoin(PlayerJoinEvent $ev) {
         $p = $ev->getPlayer();
         $p->getEffects()->clear();
-    }
-    
-    public function onDisable(): void{
-        $this->getLogger()->info("[EffectUI] Plugin Disabled!");
     }
 }
