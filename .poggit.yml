@@ -5,5 +5,5 @@ branches:
 projects:
   EffectUI:
     path: EffectUI/
-    icon: icon.png
+    icon: "icon.png"
 ...
