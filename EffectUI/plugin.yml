@@ -1,0 +1,6 @@
+name: EffectUI
+api: 4.0.0
+main: FRashkar\EffectUI\Main
+version: 1.0.0-beta
+author: FRashkar-pm
+description: EffectUI
