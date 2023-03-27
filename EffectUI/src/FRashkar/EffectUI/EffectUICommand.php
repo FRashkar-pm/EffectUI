@@ -7,9 +7,8 @@
 * | |____| | | ||  __/ (__| |_| |__| |_| |_ 
 * |______|_| |_| \___|\___|\__|\____/|_____|
 * Plugin EffectUI
-* https://github.com/FRashkar-pm                                        
+* https://github.com/FRashkar-pm/EffectUI                                       
 */
-    
 
 namespace FRashkar\EffectUI;
 
