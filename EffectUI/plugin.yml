@@ -5,7 +5,7 @@ version: 1.0.0-beta
 author: FRashkar-pm
 description: EffectUI
 
-permission:
+permissions:
   effectui.cmd:
     description: Allow you to use effectui!
     default: op
