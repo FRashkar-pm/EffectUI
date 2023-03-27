@@ -1,5 +1,6 @@
 # EffectUI
-EffectUI Plugin is a simple plugin to use effects with UI.
+EffectUI Plugin is a simple plugin to use effects with UI. You can choose the effect you want by clicking on the effect you want to choose.
+This is an example screenshot.
 
 <img src= "https://media.discordapp.net/attachments/1079982978165387276/1089845604705914920/Screenshot_196.png?width=756&height=427">
 
