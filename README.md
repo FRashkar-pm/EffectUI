@@ -2,6 +2,7 @@
 EffectUI Plugin is a simple plugin to use effects with UI.
 
 <img src= "https://media.discordapp.net/attachments/1079982978165387276/1089845604705914920/Screenshot_196.png?width=756&height=427">
+
 # Commands
 ```
 /effectui
