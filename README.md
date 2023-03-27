@@ -1,7 +1,11 @@
 # EffectUI
-EffectUI Plugin
-<br>Permission = 
-```yaml 
+EffectUI Plugin is a simple plugin to use effects with UI.
+# Commands
+```
+/effectui
+```
+# Permission 
+``` 
 "effectui.cmd"
 ```
 Icon Source
