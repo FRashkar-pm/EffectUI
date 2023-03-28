@@ -20,7 +20,7 @@ use pocketmine\Server;
 use FRashkar\EffectUI\Main;
 use pocketmine\utils\TextFormat;
 
-class EffectUICommand extends Command  { 
+class EffectUICommand extends Command implements PluginOwned { 
     
     private Main $main;
     
