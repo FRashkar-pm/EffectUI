@@ -5,6 +5,11 @@ version: 1.0.0
 author: FRashkar-pm
 description: EffectUI
 
+commands:
+  effectui:
+    description: Open EffectUI
+    permission: effectui.cmd
+    
 permissions:
   effectui.cmd:
     description: Allow you to use effectui!
