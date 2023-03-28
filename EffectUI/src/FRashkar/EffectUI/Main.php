@@ -26,11 +26,11 @@ use pocketmine\entity\effect\EffectInstance;
 use pocketmine\entity\effect\EffectManager;
 use pocketmine\entity\effect\VanillaEffects;
 use pocketmine\utils\TextFormat;
-use Vecnavium\FormsUI\CustomForm;
-use Vecnavium\FormsUI\ModalForm;
-use Vecnavium\FormsUI\SimpleForm;
-use Vecnavium\FormsUI\Form;
-use Vecnavium\FormsUI\FormsUI;
+use FRashkar\EffectUI\libs\Vecnavium\FormsUI\CustomForm;
+use FRashkar\EffectUI\libs\Vecnavium\FormsUI\ModalForm;
+use FRashkar\EffectUI\libs\Vecnavium\FormsUI\SimpleForm;
+use FRashkar\EffectUI\libs\Vecnavium\FormsUI\Form;
+use FRashkar\EffectUI\libs\Vecnavium\FormsUI\FormsUI;
 
 class Main extends PluginBase implements Listener {
 
