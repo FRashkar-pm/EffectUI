@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Vecnavium\FormsUI;
+namespace FRashkar\EffectUI\libs\Vecnavium\FormsUI;
 
 use pocketmine\plugin\PluginBase;
 
