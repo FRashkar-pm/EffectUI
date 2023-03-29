@@ -4,11 +4,6 @@ main: FRashkar\EffectUI\Main
 version: 1.0.0
 author: FRashkar-pm
 description: EffectUI
-
-commands:
-  effectui:
-    description: Open EffectUI
-    permission: effectui.cmd
     
 permissions:
   effectui.cmd:
