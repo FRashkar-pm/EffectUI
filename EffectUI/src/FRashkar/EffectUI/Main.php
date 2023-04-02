@@ -36,6 +36,7 @@ class Main extends PluginBase implements Listener {
 
     public function onEnable(): void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->getServer()->getCommandMap()->register("effecui", new EffectUICommand($this));
     }
     
     public function onJoin(PlayerJoinEvent $ev) {
