@@ -36,7 +36,6 @@ class Main extends PluginBase implements Listener {
 
     public function onEnable(): void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getServer()->getCommandMap()->register("effecui", new EffectUICommand($this));
     }
     
     public function onJoin(PlayerJoinEvent $ev) {
@@ -47,8 +46,14 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool {
         switch ($command->getName()) {
             case "effectui":
-                if ($sender instanceof Player) {
-                    $this->openEffectsUI($sender);
+                if ($command == "effectui") {
+                    if (!$sender instanceof Player) {
+                        $sender->sendMessage(TextFormat::RED . "Use this command in-game please!");
+                    }else if ($sender->hasPermission("effectui.cmd") {
+                        $this->openEffectsUI($sender);
+                    }else{
+                        $sender->sendMessage(TextFormat::RED . "You don't have permission to use this command!");
+                    }
                 }
                 break;
         }
