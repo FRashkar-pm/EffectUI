@@ -49,7 +49,7 @@ class Main extends PluginBase implements Listener {
                 if ($command == "effectui") {
                     if (!$sender instanceof Player) {
                         $sender->sendMessage(TextFormat::RED . "Use this command in-game please!");
-                    }else if ($sender->hasPermission("effectui.cmd") {
+                    }else if ($sender->hasPermission("effectui.cmd")) {
                         $this->openEffectsUI($sender);
                     }else{
                         $sender->sendMessage(TextFormat::RED . "You don't have permission to use this command!");
